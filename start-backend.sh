@@ -24,7 +24,7 @@ docker build -t $BACKEND_IMAGE_NAME \
 
 echo $DB_CONTAINER_NAME
 
-docker run -d --name $BACKEND_CONTAINER_NAME \
+docker run --rm -d --name $BACKEND_CONTAINER_NAME \
     -e KEY_VALUE_DB=$KEY_VALUE_DB \
     -e KEY_VALUE_USER=$KEY_VALUE_USER \
     -e KEY_VALUE_PASSWORD=$KEY_VALUE_PASSWORD \
