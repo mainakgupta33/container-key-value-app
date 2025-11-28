@@ -11,7 +11,7 @@ db.createUser(
         pwd : keyValuePassword,
         roles:[
             {
-                role: 'readwrite',
+                role: 'readWrite',
                 // Use the variable for the database name
                 db : keyValueDb 
             }
