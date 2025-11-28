@@ -6,10 +6,6 @@ source .env.db
 ROOT_USER="root-user"
 ROOT_PASSWORD="root-password"
 
-# Key-value Credentials
-KEY_VALUE_DB="key-value-db"
-KEY_VALUE_USER="key-value-user"
-KEY_VALUE_PASSWORD="key-value-password"
 
 # Connectivity
 source .env.network
